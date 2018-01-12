@@ -22,9 +22,6 @@ mongoose.Promise = global.Promise;
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-// db.once('open', () => {
-//   // connected
-// });
 
 app.listen(PORT, () => {
   console.log('App started on port:', PORT);
@@ -35,7 +32,6 @@ app.get('/', (req, res) => {
     if (err) { throw err; }
     res.send(docs);
   });
-  // res.send('Hello world!');
 });
 
 // Catch 404 and forward to error handler
@@ -51,7 +47,7 @@ app.use((err, req, res, next) => {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // Render the error page
+  // Render the error message
   res.status(err.status || 500);
   res.send('error');
 });
