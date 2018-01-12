@@ -9,3 +9,5 @@ Instructions for starting up the Backend Locally:
 4) If you don't have any data yet, run `./node_modules/.bin/babel-node populatedb` from the root directory of gp-hymn. Will populate the db with a few test entries.
 
 5) In the DB `hymns`, you should see a collection called `hymncollections` with 4 hymns entered
+
+6) When loading `localhost:8080` in the browser, after all is said and done, it should spit out an array of the 4 hymn objects in the DB
