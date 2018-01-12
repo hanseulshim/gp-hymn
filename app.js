@@ -5,7 +5,7 @@ import compression from 'compression';
 import helmet from 'helmet';
 import mongoose from 'mongoose';
 
-import Hymn from './Models/Hymn';
+import Hymn from './db/Models/Hymn';
 
 const app = express();
 const PORT = 8080;
