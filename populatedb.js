@@ -21,7 +21,7 @@ mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection 
 const hymns = [];
 
 const hymnCreate = (name, order, originalKey, chorus, v1, v2, v3, v4, v5, bridge, cb) => {
-  const hymndetail = {
+  const hymnDetail = {
     name,
     order,
     v1,
@@ -34,7 +34,7 @@ const hymnCreate = (name, order, originalKey, chorus, v1, v2, v3, v4, v5, bridge
     originalKey,
   };
 
-  const hymn = new Hymn(hymndetail);
+  const hymn = new Hymn(hymnDetail);
   hymn.save((err) => {
     if (err) {
       cb(err, null);
