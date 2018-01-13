@@ -9,6 +9,8 @@ module.exports = {
         }
       }
     ],
-    '@neutrinojs/jest'
+    '@neutrinojs/jest',
+    'neutrino-middleware-style-loader',
+    'neutrino-middleware-sass'
   ]
 };

@@ -1,18 +1,21 @@
 import { Component } from 'react';
-import '../styles/App.css';
+import Header from './components/Header';
+import HymnView from './components/HymnView';
+import '../styles/App.scss';
 
 export default class App extends Component {
   state = {
     name: 'gp-hymn',
-    data: '',
+    data: [],
     error: null,
   };
 
   componentDidMount() {
     const request = new XMLHttpRequest();
     request.onload = () => {
+      const response = JSON.parse(request.response);
       this.setState({
-        data: request.response,
+        data: response,
       });
     };
     request.onerror = (err) => {
@@ -24,13 +27,18 @@ export default class App extends Component {
     request.send();
   }
 
+  createList = (hymn, i) => <li key={i}>{hymn.name}</li>
+
   render() {
     const { name, data, error } = this.state;
+    const hymnList = data.map(this.createList);
     return (
       <div className="App">
+        <Header />
         <h1>Welcome to {name}</h1>
-        <p>Here is the data:</p>
-        <div>{data}</div>
+        <h2>Hymn List</h2>
+        <ul>{hymnList}</ul>
+        <HymnView name={name} />
         {error ? <div>{error}</div> : null}
       </div>
     );
