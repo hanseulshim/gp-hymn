@@ -1,6 +1,6 @@
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import App from './App';
+import App from './js/App';
 
 const root = document.getElementById('root');
 const load = () =>
@@ -13,7 +13,7 @@ const load = () =>
 
 // This is needed for Hot Module Replacement
 if (module.hot) {
-  module.hot.accept('./App', load);
+  module.hot.accept(App, load);
 }
 
 load();
