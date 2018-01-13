@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-import Hymn from './src/server/Models/Hymn';
+import Hymn from './db/Models/Hymn';
 
 console.log('This script populates some test books, authors, genres and bookinstances to your database. Specified database as argument - e.g.: populatedb mongodb://your_username:your_password@your_dabase_url');
 
