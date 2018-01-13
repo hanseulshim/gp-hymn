@@ -20,7 +20,7 @@ mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection 
 
 const hymns = [];
 
-function hymnCreate(name, order, originalKey, chorus, v1, v2, v3, v4, v5, bridge, cb) {
+const hymnCreate = (name, order, originalKey, chorus, v1, v2, v3, v4, v5, bridge, cb) => {
   const hymndetail = {
     name,
     order,
@@ -46,19 +46,19 @@ function hymnCreate(name, order, originalKey, chorus, v1, v2, v3, v4, v5, bridge
   });
 }
 
-function createHymns(cb) {
+const createHymns = (cb) => {
   async.parallel(
     [
-      function (callback) {
+      (callback) => {
         hymnCreate('Amazing Grace', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'A', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
       },
-      function (callback) {
+      (callback) => {
         hymnCreate('Close to Thee', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'D', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
       },
-      function (callback) {
+      (callback) => {
         hymnCreate('The Old Rugged Cross', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'G', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
       },
-      function (callback) {
+      (callback) => {
         hymnCreate('Abide with Me', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'C', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
       },
     ],
