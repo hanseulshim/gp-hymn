@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const HymnSchema = new Schema({
   name: String,
   originalKey: String,
-  order: Array,
+  scan: Array,
   v1: String,
   v2: String,
   v3: String,

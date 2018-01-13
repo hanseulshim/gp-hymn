@@ -20,10 +20,10 @@ mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection 
 
 const hymns = [];
 
-const hymnCreate = (name, order, originalKey, chorus, v1, v2, v3, v4, v5, bridge, cb) => {
+const hymnCreate = (name, scan, originalKey, chorus, v1, v2, v3, v4, v5, bridge, cb) => {
   const hymnDetail = {
     name,
-    order,
+    scan,
     v1,
     v2,
     v3,
