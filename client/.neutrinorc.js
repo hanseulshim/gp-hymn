@@ -5,7 +5,7 @@ module.exports = {
       '@neutrinojs/react',
       {
         html: {
-          title: 'gp-hymn'
+          title: 'GP Hymn'
         }
       }
     ],

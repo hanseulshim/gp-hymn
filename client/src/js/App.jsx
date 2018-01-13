@@ -5,9 +5,10 @@ import '../styles/App.scss';
 
 export default class App extends Component {
   state = {
-    name: 'gp-hymn',
     data: [],
     error: null,
+    name: 'test',
+    searchString: '',
   };
 
   componentDidMount() {
@@ -27,15 +28,22 @@ export default class App extends Component {
     request.send();
   }
 
-  createList = (hymn, i) => <li key={i}>{hymn.name}</li>
+  setSearchString = (searchString) => {
+    this.setState({ searchString });
+  }
+
+  createList = (hymn, i) => <li key={i}>{hymn.name}</li>;
 
   render() {
-    const { name, data, error } = this.state;
-    const hymnList = data.map(this.createList);
+    const {
+      name, data, error, searchString,
+    } = this.state;
+    const hymnList = data
+      .filter(v => v.name.toLowerCase().includes(searchString.toLowerCase()))
+      .map(this.createList);
     return (
       <div className="App">
-        <Header />
-        <h1>Welcome to {name}</h1>
+        <Header setSearchString={this.setSearchString} />
         <h2>Hymn List</h2>
         <ul>{hymnList}</ul>
         <HymnView name={name} />
