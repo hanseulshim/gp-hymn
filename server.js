@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 import compression from 'compression';
 import helmet from 'helmet';
 import mongoose from 'mongoose';
+import cors from 'cors';
 
 import Hymn from './db/Models/Hymn';
 
@@ -15,6 +16,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(compression());
+app.use(cors());
 
 const url = 'mongodb://localhost:27017/hymns';
 mongoose.connect(url, { useMongoClient: true });
