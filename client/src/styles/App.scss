@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #3b3a36;
 }
 
 .search-bar {
@@ -19,4 +20,26 @@ body {
   .MuiFormLabel-focused-12 {
     color: #3b3a36;
   }
+}
+
+.main-container {
+  display: flex;
+
+  .hymn-view {
+    width: 70%;
+    padding: 20px;
+    font-size: 20px;
+    background: #e9ece5;
+  }
+  .hymn-list {
+    width: 30%;
+    background: #b3c2bf;
+  }
+}
+
+.center {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
 }
