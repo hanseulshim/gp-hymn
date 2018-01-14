@@ -1,13 +1,12 @@
 import { Component } from 'react';
 import Header from './components/Header';
-import HymnView from './components/HymnView';
+import MainContainer from './components/MainContainer';
 import '../styles/App.scss';
 
 export default class App extends Component {
   state = {
     data: [],
     error: null,
-    name: 'test',
     searchString: '',
   };
 
@@ -32,21 +31,16 @@ export default class App extends Component {
     this.setState({ searchString });
   }
 
-  createList = (hymn, i) => <li key={i}>{hymn.name}</li>;
-
   render() {
     const {
-      name, data, error, searchString,
+      data, error, searchString,
     } = this.state;
     const hymnList = data
-      .filter(v => v.name.toLowerCase().includes(searchString.toLowerCase()))
-      .map(this.createList);
+      .filter(v => v.name.toLowerCase().includes(searchString.toLowerCase()));
     return (
       <div className="App">
         <Header setSearchString={this.setSearchString} />
-        <h2>Hymn List</h2>
-        <ul>{hymnList}</ul>
-        <HymnView name={name} />
+        <MainContainer hymnList={hymnList} />
         {error ? <div>{error}</div> : null}
       </div>
     );
