@@ -9,7 +9,7 @@ import cors from 'cors';
 import Hymn from './db/Models/Hymn';
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use(helmet());
 app.use(logger('dev'));
