@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  width: 100%;
+  background: #c0dfd9;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar {
+  .MuiInput-inkbar-17:after {
+    background: #3b3a36;
+  }
+  .MuiFormLabel-focused-12 {
+    color: #3b3a36;
+  }
+}

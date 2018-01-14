@@ -1,18 +1,22 @@
 import { Component } from 'react';
-import '../styles/App.css';
+import Header from './components/Header';
+import HymnView from './components/HymnView';
+import '../styles/App.scss';
 
 export default class App extends Component {
   state = {
-    name: 'gp-hymn',
-    data: '',
+    data: [],
     error: null,
+    name: 'test',
+    searchString: '',
   };
 
   componentDidMount() {
     const request = new XMLHttpRequest();
     request.onload = () => {
+      const response = JSON.parse(request.response);
       this.setState({
-        data: request.response,
+        data: response,
       });
     };
     request.onerror = (err) => {
@@ -24,13 +28,25 @@ export default class App extends Component {
     request.send();
   }
 
+  setSearchString = (searchString) => {
+    this.setState({ searchString });
+  }
+
+  createList = (hymn, i) => <li key={i}>{hymn.name}</li>;
+
   render() {
-    const { name, data, error } = this.state;
+    const {
+      name, data, error, searchString,
+    } = this.state;
+    const hymnList = data
+      .filter(v => v.name.toLowerCase().includes(searchString.toLowerCase()))
+      .map(this.createList);
     return (
       <div className="App">
-        <h1>Welcome to {name}</h1>
-        <p>Here is the data:</p>
-        <div>{data}</div>
+        <Header setSearchString={this.setSearchString} />
+        <h2>Hymn List</h2>
+        <ul>{hymnList}</ul>
+        <HymnView name={name} />
         {error ? <div>{error}</div> : null}
       </div>
     );

@@ -11,6 +11,7 @@
     "test": "neutrino test"
   },
   "dependencies": {
+    "material-ui": "^1.0.0-beta.27",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -20,6 +21,8 @@
     "@neutrinojs/airbnb": "^8.0.16",
     "@neutrinojs/jest": "^8.0.16",
     "@neutrinojs/react": "^8.0.16",
-    "neutrino": "^8.0.16"
+    "neutrino": "^8.0.16",
+    "neutrino-middleware-sass": "^0.0.1",
+    "neutrino-middleware-style-loader": "^7.4.0"
   }
 }

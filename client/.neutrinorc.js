@@ -5,10 +5,12 @@ module.exports = {
       '@neutrinojs/react',
       {
         html: {
-          title: 'gp-hymn'
+          title: 'GP Hymn'
         }
       }
     ],
-    '@neutrinojs/jest'
+    '@neutrinojs/jest',
+    'neutrino-middleware-style-loader',
+    'neutrino-middleware-sass'
   ]
 };
