@@ -1,0 +1,19 @@
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.search-bar > .MuiInput-inkbar-17:after {
+  background: #3b3a36;
+}
+
+.search-bar > .MuiFormLabel-focused-12 {
+  color: #3b3a36;
+}
