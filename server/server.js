@@ -18,8 +18,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(compression());
 app.use(cors());
 
-const url = 'mongodb://localhost:27017/hymns';
-mongoose.connect(url, { useMongoClient: true });
+// const url = 'mongodb://localhost:27017/hymns';
+mongoose.connect(process.env.MONGODB_URI, { useMongoClient: true });
 mongoose.Promise = global.Promise;
 
 const db = mongoose.connection;
