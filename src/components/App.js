@@ -20,7 +20,7 @@ export default class App extends Component {
     };
     request.onerror = (err) => {
       this.setState({
-        error: err,
+        error: 'Failed to get data'
       });
     };
     request.open('GET', 'http://localhost:8080/', true);
