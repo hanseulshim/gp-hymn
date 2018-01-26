@@ -9,11 +9,12 @@ const style = {
 }
 
 const createScan = (props) => {
-  const scan = props.selectedHymn.scan.slice();
-  return scan.map(v => (
+  // const scan = props.selectedHymn.scan.slice();
+  const scan = ['v1', 'chorus', 'v2', 'v3', 'v4', 'v5'];
+  return scan.map(v => props.selectedHymn[v] === '' ? null : (
     <div key={shortid.generate()}>
       <h4>{v}:</h4>
-      <p>{props.selectedHymn[v]}</p>
+      <pre>{props.selectedHymn[v]}</pre>
     </div>
   ));
 };

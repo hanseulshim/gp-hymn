@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import Hymn from './db/Models/Hymn';
+import data from './data';
 
 console.log('This script populates some test books, authors, genres and bookinstances to your database. Specified database as argument - e.g.: populatedb mongodb://your_username:your_password@your_dabase_url');
 
@@ -16,6 +17,9 @@ mongoose.connect(mongoDB, {
 });
 mongoose.Promise = global.Promise;
 const db = mongoose.connection;
+db.dropCollection('hymncollections', (err, result) => {
+  console.log('wiped database');
+});
 mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 const hymns = [];
@@ -49,21 +53,11 @@ const hymnCreate = (id, name, scan, originalKey, chorus, v1, v2, v3, v4, v5, bri
 
 const createHymns = (cb) => {
   async.parallel(
-    [
-      (callback) => {
-        hymnCreate(5, 'Amazing Grace', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'A', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
-      },
-      (callback) => {
-        hymnCreate(18, 'Close to Thee', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'D', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
-      },
-      (callback) => {
-        hymnCreate(113, 'The Old Rugged Cross', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'G', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
-      },
-      (callback) => {
-        hymnCreate(2, 'Abide with Me', ['v1', 'chorus', 'v2', 'chorus', 'v3', 'chorus'], 'C', 'Chorus Lyrics', 'V1 Lyrics', 'V2 Lyrics', 'V3 Lyrics', '', '', '', callback);
-      },
-    ],
-    // optional callback
+    data.map(hymn => {
+      return (callback) => {
+        hymnCreate(hymn.id, hymn.name, hymn.scan, hymn.originalKey, hymn.chorus, hymn.v1, hymn.v2, hymn.v3, hymn.v4, hymn.v5, hymn.bridge, callback);
+      }
+    }),
     cb
   );
 }

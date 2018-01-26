@@ -23,7 +23,7 @@ export default class App extends Component {
         error: 'Failed to get data'
       });
     };
-    request.open('GET', 'http://localhost:8080/', true);
+    request.open('GET', 'https://gp-hymn-server.herokuapp.com/', true);
     request.send();
   }
 
@@ -36,7 +36,7 @@ export default class App extends Component {
       data, error, searchString,
     } = this.state;
     const hymnList = data
-      .filter(v => v.name.toLowerCase().includes(searchString.toLowerCase()));
+    .filter(v => v.name.toLowerCase().includes(searchString.toLowerCase()));
     return (
       <div className="App">
         <Header setSearchString={this.setSearchString} />

@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 const HymnSchema = new Schema({
@@ -17,4 +17,4 @@ const HymnSchema = new Schema({
 
 const Hymn = mongoose.model('HymnCollection', HymnSchema);
 
-export default Hymn;
+module.exports = Hymn;
