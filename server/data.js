@@ -5,7 +5,9 @@ const hymns = [
     scan: [],
     originalKey: '',
     chorus: '',
-    v1: `Amazing grace!  How sweet the sound,
+    v1: 
+`<span>G</span>     <span>A</span>
+Amazing grace!  How sweet the sound,
 That saved a wretch like me!
 I once was lost, but now am found,
 Was blind, but now I see.`,
