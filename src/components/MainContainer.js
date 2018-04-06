@@ -1,32 +1,52 @@
 import React, { Component } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
+
+import * as Actions from '../actions';
+
 import HymnView from './HymnView';
 import HymnList from './HymnList';
 
-const style = {
-  display: 'flex'
+const styles = {
+  container: {
+    height: '100%',
+  },
 };
 
-export default class MainContainer extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: 'Select a hymn',
-    };
-  }
-
-  updateSelected = (name) => {
-    this.setState({ name });
+class MainContainer extends Component {
+  componentDidMount() {
+    this.props.getData();
   }
 
   render() {
-    const { hymnList } = this.props;
-    const { name } = this.state;
-    const selectedHymn = hymnList.filter(hymn => hymn.name === name)[0];
-    return (
-      <div style={style}>
-        <HymnView selectedHymn={selectedHymn} />
-        <HymnList hymnList={hymnList} updateSelected={this.updateSelected} />
-      </div>
+    const { loading } = this.props;
+    return loading ? (
+      <h1>Loading</h1>
+    ) : (
+      <Router>
+        <div style={styles.container}>
+          <Route exact path="/" component={HymnList} />
+          <Route exact path="/hymnView" component={HymnView} />
+        </div>
+      </Router>
     );
   }
 }
+
+const mapStateToProps = state => ({
+  loading: state.dataReducer.loading,
+});
+
+const mapDispatchToProps = dispatch => bindActionCreators(Actions, dispatch);
+
+MainContainer.propTypes = {
+  getData: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(MainContainer);
