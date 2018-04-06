@@ -30,8 +30,8 @@ class MainContainer extends Component {
     ) : (
       <Router>
         <div style={styles.container}>
-          <Route exact path="/" component={HymnList} />
-          <Route exact path="/hymnView" component={HymnView} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={HymnList} />
+          <Route exact path={`${process.env.PUBLIC_URL}/hymnView`} component={HymnView} />
         </div>
       </Router>
     );
