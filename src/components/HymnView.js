@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { Link, Redirect } from 'react-router-dom';
 import * as Actions from '../actions';
-
+import backButton from '../images/back.png';
 
 const styles = {
   container: {
@@ -44,30 +43,36 @@ const styles = {
     padding: 30,
     whiteSpace: 'pre-line',
   },
+  back: {
+    display: 'flex',
+    alignContent: 'center',
+    border: 'none',
+    background: 'inherit',
+  },
 };
 
-const HymnView = (props) => {
-  const { title, lyrics } = props;
-  return title === '' ? (
-    <Redirect
-      to={{
-        pathname: '/',
-      }}
-    />
-  ) : (
-    <div style={styles.container}>
-      <div style={styles.header}>
-        <div style={styles.title}>
-          {title}
+class HymnView extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    const { title, lyrics } = this.props;
+    return (
+      <div style={styles.container}>
+        <div style={styles.header}>
+          <div style={styles.title}>{title}</div>
+          <button onClick={this.props.resetHymn} style={styles.back}>
+            <img src={backButton} alt="back" />
+          </button>
         </div>
-        <Link to="/">{'<< Back'}</Link>
+        <div style={styles.lyricsContainer}>
+          <p style={styles.lyrics}>{lyrics}</p>
+        </div>
       </div>
-      <div style={styles.lyricsContainer}>
-        <p style={styles.lyrics}>{lyrics}</p>
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 const mapStateToProps = state => ({
   title: state.hymnReducer.title,
@@ -79,6 +84,7 @@ const mapDispatchToProps = dispatch => bindActionCreators(Actions, dispatch);
 HymnView.propTypes = {
   title: PropTypes.string.isRequired,
   lyrics: PropTypes.string.isRequired,
+  resetHymn: PropTypes.func.isRequired,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(HymnView);
