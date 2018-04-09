@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import List, { ListItem, ListItemText } from 'material-ui/List';
 import TextField from 'material-ui/TextField';
-import { Link } from 'react-router-dom';
 import * as Actions from '../actions';
 
 
@@ -40,6 +39,10 @@ class HymnList extends Component {
     this.state = { searchText: '' };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   selectHymn = (hymn) => {
     this.props.selectHymn(hymn);
   }
@@ -47,11 +50,9 @@ class HymnList extends Component {
   filterData = hymn => hymn.title.toLowerCase().includes(this.state.searchText.toLowerCase());
 
   generateList = hymn => (
-    <Link to="/hymnView" key={hymn.title}>
-      <ListItem button divider onClick={() => this.selectHymn(hymn)}>
-        <ListItemText primary={hymn.title} />
-      </ListItem>
-    </Link>
+    <ListItem button divider onClick={() => this.selectHymn(hymn)} key={hymn.title}>
+      <ListItemText primary={hymn.title} />
+    </ListItem>
   );
 
   searchHymn = (evt) => {
