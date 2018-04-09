@@ -1,32 +1,39 @@
 import React, { Component } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+
+import * as Actions from '../actions';
+
 import HymnView from './HymnView';
 import HymnList from './HymnList';
 
-const style = {
-  display: 'flex'
-};
-
-export default class MainContainer extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: 'Select a hymn',
-    };
+class MainContainer extends Component {
+  componentDidMount() {
+    this.props.getData();
   }
 
-  updateSelected = (name) => {
-    this.setState({ name });
-  }
+  selectView = () => (this.props.title === '' ? <HymnList /> : <HymnView />);
 
   render() {
-    const { hymnList } = this.props;
-    const { name } = this.state;
-    const selectedHymn = hymnList.filter(hymn => hymn.name === name)[0];
-    return (
-      <div style={style}>
-        <HymnView selectedHymn={selectedHymn} />
-        <HymnList hymnList={hymnList} updateSelected={this.updateSelected} />
-      </div>
-    );
+    const { loading } = this.props;
+    return loading ? (
+      <h1>Loading</h1>
+    ) : this.selectView();
   }
 }
+
+const mapStateToProps = state => ({
+  loading: state.dataReducer.loading,
+  title: state.hymnReducer.title,
+});
+
+const mapDispatchToProps = dispatch => bindActionCreators(Actions, dispatch);
+
+MainContainer.propTypes = {
+  getData: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
+  title: PropTypes.string.isRequired,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(MainContainer);

@@ -1,15 +1,15 @@
-import express from 'express';
-import logger from 'morgan';
-import bodyParser from 'body-parser';
-import compression from 'compression';
-import helmet from 'helmet';
-import mongoose from 'mongoose';
-import cors from 'cors';
+const express = require('express');
+const logger = require('morgan');
+const bodyParser = require('body-parser');
+const compression = require('compression');
+const helmet = require('helmet');
+const mongoose = require('mongoose');
+const cors = require('cors');
 
-import Hymn from './db/Models/Hymn';
+const Hymn = require('./db/Models/Hymn');
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use(helmet());
 app.use(logger('dev'));
@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(compression());
 app.use(cors());
 
-const url = 'mongodb://localhost:27017/hymns';
+const url = process.env.MONGODB_URI || 'mongodb://localhost:27017/hymns';
 mongoose.connect(url, { useMongoClient: true });
 mongoose.Promise = global.Promise;
 
@@ -54,4 +54,4 @@ app.use((err, req, res, next) => {
   res.send('error');
 });
 
-export default app;
+module.exports = app;

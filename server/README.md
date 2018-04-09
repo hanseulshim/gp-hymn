@@ -11,3 +11,20 @@ Instructions for starting up the Backend Locally:
 5) In the DB `hymns`, you should see a collection called `hymncollections` with 4 hymns entered
 
 6) When loading `localhost:8080` in the browser, after all is said and done, it should spit out an array of the 4 hymn objects in the DB
+
+
+DIRECTIONS FOR CREATING DATA:
+
+1) All hymn data is located in `data.js`. Verse and Chorus data is will be wrapped in a `<pre>` tag.
+
+2) Run `mongod`
+
+3) run `./node_modules/.bin/babel-node populatedb` which will wipe the current db and write the data
+
+4) run `mongodump --db hymns --collection hymncollections`
+
+5) navigate to the dump folder
+
+6) log into mlab and wipe current collection
+
+7) run `mongorestore -h <db> -d hymns -c hymncollections -u <user> -p <password> hymncollections.bson` with correct credentials.
