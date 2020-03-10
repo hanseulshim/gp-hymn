@@ -1,34 +1,45 @@
 {
-  "name": "gp-hymn-2",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://hanseulshim.github.io/gp-hymn",
-  "dependencies": {
-    "eslint": "^4.9.0",
-    "gh-pages": "^1.1.0",
-    "material-ui": "^1.0.0-beta.28",
-    "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
-    "react-scripts": "1.1.0",
-    "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0",
-    "shortid": "^2.2.8"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "eslint": "eslint --init",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "devDependencies": {
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
-  }
+	"name": "gp-hymn",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"@types/jest": "^24.0.0",
+		"@types/node": "^12.0.0",
+		"@types/react": "^16.9.23",
+		"@types/react-dom": "^16.9.0",
+		"react": "^16.13.0",
+		"react-dom": "^16.13.0",
+		"react-scripts": "3.4.0",
+		"typescript": "~3.7.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.23.0",
+		"@typescript-eslint/parser": "^2.23.0",
+		"eslint": "^6.8.0",
+		"eslint-plugin-react": "^7.19.0"
+	}
 }
