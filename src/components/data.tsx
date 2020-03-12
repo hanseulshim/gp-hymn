@@ -477,7 +477,7 @@ const list = [
 			Facing for sinners death on the cross,
 			That He might save them from endless loss.`,
 		v2: `
-			“Father, forgive them!” thus did He pray,
+			"Father, forgive them!" thus did He pray,
 			E’en while His lifeblood flowed fast away;
 			Praying for sinners while in such woe—
 			No one but Jesus ever loved so.`,
@@ -642,7 +642,7 @@ const list = [
 			He whose name is Counselor and Pow’r.
 			The  protection of His child and treasure
 			Is a charge that on Himself He laid;
-			“As thy days, thy strength shall be in measure,”
+			"As thy days, thy strength shall be in measure,"
 			This the pledge to me He made.`,
 		v3: `
 			Help me then in every tribulation
@@ -786,12 +786,12 @@ const list = [
 	},
 	{
 		id: 26,
-		title: `Fill My Cup, Lord (“Like the Woman at the Well”)`,
+		title: `Fill My Cup, Lord ("Like the Woman at the Well")`,
 		v1: `
 			Like the woman at the well, I was seeking
 			For things that could not satisfy.
 			And then I heard my Savior speaking—
-			“Draw from My well that never shall run dry.”`,
+			"Draw from My well that never shall run dry."`,
 		v2: `
 			There are millions in this world who are seeking
 			For pleasures earthly goods afford.
@@ -1005,7 +1005,7 @@ const list = [
 			I’m pressing on the upward way,
 			New heights I’m gaining ev’ry day;
 			Still praying as I onward bound,
-			“Lord, plant my feet on higher ground.”`,
+			"Lord, plant my feet on higher ground."`,
 		v2: `
 			My heart has no desire to stay
 			Where doubts arise and fears dismay;
@@ -1020,7 +1020,7 @@ const list = [
 			I want to scale the utmost height
 			And catch a gleam of glory bright;
 			But still I’ll pray till heav’n I’ve found,
-			“Lord, lead me on to higher ground.”`,
+			"Lord, lead me on to higher ground."`,
 		chorus: `
 			Lord, lift me up and let me stand,
 			By faith, on heaven’s tableland,
@@ -1402,7 +1402,7 @@ const list = [
 			A sinner, condemned, unclean.`,
 		v2: `
 			For me it was in the garden
-			He prayed, “Not my will, but Thine,”
+			He prayed, "Not my will, but Thine,"
 			He had no tears for His own griefs,
 			But sweatdrops of blood for mine.`,
 		v3: `
@@ -1509,7 +1509,7 @@ const list = [
 			The clouds be rolled back as a scroll,
 			The trump shall resound 
 			and the Lord shall descend,
-			“Even so,” it is well with my soul.`,
+			"Even so," it is well with my soul.`,
 		chorus: `
 			It is well (it is well) 
 			with my soul (with my soul),
@@ -1703,9 +1703,9 @@ const list = [
 		title: `Jesus Paid It All`,
 		v1: `
 			I hear the Savior say,
-			“Thy strength indeed is small,
+			"Thy strength indeed is small,
 			Child of weakness, watch and pray,
-			Find in Me thine all in all.”`,
+			Find in Me thine all in all."`,
 		v2: `
 			Lord, now indeed I find
 			Thy pow’r, and Thine alone,
@@ -1719,7 +1719,7 @@ const list = [
 		v4: `
 			And when, before the throne,
 			I stand in Him complete,
-			“Jesus died my soul to save,”
+			"Jesus died my soul to save,"
 			My lips shall still repeat.`,
 		chorus: `
 			Jesus paid it all,
@@ -2993,42 +2993,1052 @@ const list = [
 			fill my poor heart with thy great love divine.
 			Take all my will, my passion, self, and pride;
 			I now surrender, Lord-- in me abide.`
+	},
+	{
+		id: 101,
+		title: `Set My Soul Afire`,
+		v1: `
+			Set my soul afire, Lord, for Thy holy Word,
+			Burn it deep within me, let Thy voice be heard;
+			Millions grope in darkness in this day and hour,
+			I will be a witness, fill me with Thy pow’r.`,
+		v2: `
+			Set my soul afire, Lord, for the lost in sin,
+			Give to me a passion as I seek to win;
+			Help me not to falter, never let me fail,
+			Fill me with Thy Spirit, let Thy will prevail.`,
+		v3: `
+			Set my soul afire, Lord, in my daily life,
+			Far too long I’ve wandered in this day of strife;
+			Nothing else will matter but to live for Thee,
+			I will be a witness, for Christ lives in me.`,
+		chorus: `
+			Set my soul afire, Lord, set my soul afire,
+			Make my life a witness of Thy saving pow’r.
+			Millions grope in darkness, waiting for Thy Word,
+			Set my soul afire, Lord, set my soul afire.`
+	},
+	{
+		id: 102,
+		title: `Shine, Jesus, Shine`,
+		v1: `
+			Lord, the light of Your love is shining,
+			In the midst of the darkness shining;
+			Jesus, Light of the world, shine upon us,
+			Set us free by the truth You now bring us;
+			Shine on me, Shine on me.`,
+		v2: `
+			Lord, I come to Your awesome presence,
+			From the shadows into Your radiance;
+			By the blood I may enter Your brightness;
+			Search me, try me, consume all my darkness;
+			Shine on me, Shine on me.`,
+		v3: `
+			As we gaze on Your kingly brightness
+			So our faces display Your likeness,
+			Ever changing from glory to glory:
+			Mirrored here, may our lives tell Your story;
+			Shine on me, Shine on me.`,
+		chorus: `
+			Shine, Jesus, shine,
+			Fill this land with the Father’s glory;
+			Blaze, Spirit, blaze, set our hearts on fire.
+			Flow, river, flow,
+			Flood the nations with grace and mercy;
+			Send forth Your word,
+			Lord, and let there be light.`
+	},
+	{
+		id: 103,
+		title: `Since I Have Been Redeemed`,
+		v1: `
+			I have a song I love to sing,
+			Since I have been redeemed,
+			Of my Redeemer, Savior King,
+			Since I have been redeemed.`,
+		v2: `
+			I have a Christ Who satisfies
+			Since I have been redeemed,
+			To do His will my highest prize,
+			Since I have been redeemed.`,
+		v3: `
+			I have a witness bright and clear,
+			Since I have been redeemed,
+			Dispelling every doubt and fear,
+			Since I have been redeemed.`,
+		v4: `
+			I have a home prepared for me,
+			Since I have been redeemed,
+			Where I shall dwell eternally,
+			Since I have been redeemed.`,
+		chorus: `
+			Since I have been redeemed,
+			Since I have been redeemed,
+			I will glory in His Name,
+			Since I have been redeemed,
+			I will glory in the Savior’s Name.`
+	},
+	{
+		id: 104,
+		title: `Since Jesus Came Into My Heart`,
+		v1: `
+			What a wonderful change in my life has been wrought
+			Since Jesus came into my heart!
+			I have light in my soul for which long I had sought,`,
+		v2: `
+			I’m possessed of a hope that is steadfast and sure,
+			Since Jesus came into my heart!
+			And no dark clouds of doubt now my pathway obscure,
+			Since Jesus came into my heart!`,
+		v3: `
+			There’s a light in the valley of death now for me,
+			Since Jesus came into my heart!
+			And the gates of the City beyond I can see,
+			Since Jesus came into my heart!`,
+		v4: `
+			I shall go there to dwell in that City, I know,
+			Since Jesus came into my heart!
+			And I’m happy, so happy, as onward I go,
+			Since Jesus came into my heart!`,
+		chorus: `
+			Since Jesus came into my heart!
+			Since Jesus came into my heart,
+			Since Jesus came into my heart,
+			Floods of joy o’er my soul
+			Like the sea billows roll,
+			Since Jesus came into my heart.`
+	},
+	{
+		id: 105,
+		title: `Softly And Tenderly`,
+		v1: `
+			Softly and tenderly Jesus is calling, 
+			Calling for you and for me;
+			See, on the portals He's waiting and watching, 
+			Watching for you and for me.`,
+		v2: `
+			Why should we tarry when Jesus is pleading,
+			Pleading for you and for me?
+			Why should we linger and heed not His mercies, 
+			Mercies for you and for me?`,
+		v3: `
+			Time is now fleeting, the moments are passing, 
+			Passing from you and from me; 
+			Shadows are gathering, deathbeds are coming, 
+			Coming for you and for me. `,
+		v4: `
+			O for the wonderful love he has promised, 
+			Promised for you and for me! 
+			Though we have sinned, he has mercy and pardon, 
+			Pardon for you and for me.`,
+		chorus: `
+			Come Home, Come home,
+			You who are weary come home,
+			Earnestly, tenderly Jesus is calling – 
+			Calling, O sinner, come home!`
+	},
+	{
+		id: 106,
+		title: `The Solid Rock`,
+		v1: `
+			My hope is built on nothing less
+			Than Jesus’ blood and righteousness;
+			I dare not trust the sweetest frame,
+			But wholly lean on Jesus’ name.`,
+		v2: `
+			When darkness seems to hide His face,
+			I rest on His unchanging grace;
+			In ev’ry high and stormy gale,
+			My anchor holds within the veil.`,
+		v3: `
+			His oath, His covenant, His blood
+			Support me in the whelming flood;
+			When all around my soul gives way,
+			He then is all my hope and stay.`,
+		v4: `
+			When He shall come with trumpet sound,
+			Oh, may I then in Him be found;
+			Dressed in His righteousness alone,
+			Faultless to stand before the throne.`,
+		chorus: `
+			On Christ, the solid Rock, I stand;
+			All other ground is sinking sand,
+			All other ground is sinking sand.`
+	},
+	{
+		id: 107,
+		title: `Something For Thee`,
+		v1: `
+			Savior, Thy dying love Thou gavest me,
+			Nor should I aught withhold, 
+			Dear Lord, from Thee:
+			In love my soul would bow, 
+			My heart fulfill its vow,
+			Some off’ring bring Thee now, 
+			Something for Thee.`,
+		v2: `
+			At the blest mercy seat, pleading for me,
+			My feeble faith looks up, Jesus, to Thee:
+			Help me the cross to bear, 
+			Thy wondrous love declare,
+			Some song to raise, or pray’r, 
+			Something for Thee.`,
+		v3: `
+			Give me a faithful heart, likeness to Thee,
+			That each departing day henceforth may see
+			Some work of love begun, 
+			Some deed of kindness done,
+			Some wand’rer sought and won, 
+			Something for Thee.`,
+		v4: `
+			All that I am and have, Thy gifts so free,
+			In joy, in grief, thro’ life, dear Lord, for Thee!
+			And when Thy face I see, 
+			My ransom’d soul shall be,
+			Thro’ all eternity, something for Thee.`
+	},
+	{
+		id: 108,
+		title: `Speak To My Heart`,
+		v1: `
+			Speak to my heart, Lord Jesus, 
+			Speak that my soul may hear;
+			Speak to my heart, Lord Jesus, 
+			Calm every doubt and fear.`,
+		v2: `
+			Speak to my heart, Lord Jesus, 
+			Purge me from every sin;
+			Speak to my heart, Lord Jesus, 
+			Help me the lost to win.`,
+		v3: `
+			Speak to my heart, Lord Jesus, 
+			It is no longer mine;
+			Speak to my heart, Lord Jesus, 
+			I would be wholly Thine.`,
+		chorus: `
+			Speak to my heart, oh, speak to my heart, 
+			Speak to my heart, I pray;
+			Yielded and still, seeking Thy will, 
+			Oh, speak to my heart today.`
+	},
+	{
+		id: 109,
+		title: `Spirit Of God, Descend Upon My Heart`,
+		v1: `
+			Spirit of God, descend upon my heart;
+			Wean it from earth;
+			Through all its pulses move;
+			Stoop to my weakness, mighty as Thou art;
+			And make me love Thee as I ought to love.`,
+		v2: `
+			I ask no dream, no prophet ecstasies,
+			No sudden rending of the veil of clay,
+			No angel visitant, no opening skies;
+			But take the dimness of my soul away.`,
+		v3: `
+			Teach me to feel that Thou art always nigh;
+			Teach me the struggles of the soul to bear.
+			To check the rising doubt, the rebel sigh,
+			Teach me the patience of unanswered prayer.`,
+		v4: `
+			Teach me to love Thee as Thine angels love,
+			One holy passion filling all my frame;
+			The kindling of the heaven descended Dove,
+			My heart an altar, and Thy love the flame.`
+	},
+	{
+		id: 110,
+		title: `Spirit Of The Living God`,
+		v1: `
+			Spirit of the living God
+			Fall afresh on me
+			Spirit of the living God
+			Fall afresh on me
+			Melt me, mold me, fill me, use me.
+			Spirit of the living God
+			Fall afresh on me`,
+		v2: `
+			Soul of heaven, heart of God
+			Wash over me
+			Soul of heaven, heart of God
+			Wash over me
+			Cleanse me, teach me, hold me, reach me.
+			Spirit of the living God
+			Fall afresh on me`,
+		v3: `
+			Holy presence, love divine
+			Cast out my fear
+			Holy presence, love divine
+			Cast out my fear
+			Shield me, free me, call me, lead me.
+			Holy presence, love divine
+			Cast out my fear`
+	},
+	{
+		id: 111,
+		title: `Surely Goodness And Mercy`,
+		v1: `
+			A pilgrim was I, and a wandering,
+			In the cold night of sin I did roam,
+			When Jesus the kind Shepherd found me,
+			And now I am on my way home.`,
+		v2: `
+			And I shall dwell in the house of the Lord forever,
+			And I shall feast at the table spread for me;
+			Surely goodness and mercy shall follow me
+			All the days, all the days of my life.`,
+		v3: `
+			He restoreth my soul when I'm weary,
+			He giveth me strength day by day;
+			He leads me beside the still waters,
+			He guards me each step of the way.`,
+		v4: `
+			When I walk through the dark lonesome valley,
+			My savior will walk with me there;
+			And safely His great hand will lead me
+			To the mansions He's gone to prepare.`,
+		chorus: `
+			Surely goodness and mercy shall follow me
+			All the days, all the days of my life;
+			Surely goodness and mercy shall follow me
+			All the days, all the days of my life.`
+	},
+	{
+		id: 112,
+		title: `Sweet Hour Of Prayer`,
+		v1: `
+			Sweet hour of prayer, sweet hour of prayer! 
+			That calls me from a world of care, 
+			And bids me at my Father's throne 
+			Make all my wants and wishes known. 
+			In seasons of distress and grief, 
+			My soul has often found relief, 
+			And oft escaped the tempter's snare 
+			By thy return, sweet hour of prayer!`,
+		v2: `
+			Sweet hour of prayer, sweet hour of prayer! 
+			The joys I feel, the bliss I share 
+			Of those whose anxious spirits burn 
+			With strong desires for thy return! 
+			With such I hasten to the place 
+			Where God my Savior shows his face, 
+			And gladly take my station there, 
+			And wait for thee, sweet hour of prayer!`,
+		v3: `
+			Sweet hour of prayer, sweet hour of prayer! 
+			Thy wings shall my petition bear 
+			To him whose truth and faithfulness 
+			Engage the waiting soul to bless. 
+			And since he bids me seek his face, 
+			Believe his word, and trust his grace, 
+			I'll cast on him my every care, 
+			And wait for thee, sweet hour of prayer!`,
+		v4: `
+			Sweet hour of prayer, sweet hour of prayer! 
+			May I thy consolation share
+			Till, from Mount Pisgah's lofty height
+			I view my home and take my flight.
+			This rob of flesh I'll drop and rise
+			To seize the everlasting prize
+			And shout, while passing through the air,
+			Farewell, farewell, sweet hour of prayer`
+	},
+	{
+		id: 113,
+		title: `Take My Life And Let It Be`,
+		v1: `
+			Take my life, and let it be 
+			Consecrated, Lord, to Thee.
+			Take my hands, and let them move 
+			At the impulse of Thy love.
+			At the impulse of Thy love.`,
+		v2: `
+			Take my feet, and let them be 
+			Swift and beautiful for Thee.
+			Take my voice, and let me sing 
+			Always, only, for my King.
+			Always, only, for my King.`,
+		v3: `
+			Take my silver and my gold; 
+			Not a mite would I withhold.
+			Take my moments and my days; 
+			Let them flow in ceaseless praise.
+			Let them flow in ceaseless praise.`,
+		v4: `
+			Take my will, and make it Thine; 
+			It shall be no longer mine.
+			Take my heart, it is Thine own; 
+			It shall be Thy royal throne.
+			It shall be Thy royal throne.`,
+		v5: `
+			Take my love; my Lord,
+			I pour at thy feet its treasure store.
+			Take myself, and I will be
+			ever, only, all for thee,
+			ever, only, all for thee.`
+	},
+	{
+		id: 114,
+		title: `Take Time To Be Holy`,
+		v1: `
+			Take time to be holy, Speak oft with thy Lord;
+			Abide in him always, And feed on His Word:
+			Make friends of God’s children, 
+			Help those who are weak;
+			Forgetting in nothing His blessing to seek.`,
+		v2: `
+			Take time to be holy, The world rushes on;
+			Spend much time in secret with Jesus alone:
+			By looking to Jesus, Like Him thou shalt be;
+			Thy friends in thy conduct His likeness shall see.`,
+		v3: `
+			Take time to be holy, Let Him be thy guide,
+			And run not before him whatever betide;
+			In joy or in sorrow still follow thy Lord,
+			And looking to Jesus, Still trust in his Word.`,
+		v4: `
+			Take time to be holy, Be calm in thy soul;
+			Each tho’t and each motive beneath His control;
+			Thus led by His Spirit to fountains of love,
+			Thou soon shalt be fitted for service above.`
+	},
+	{
+		id: 115,
+		title: `Teach Me Thy Way`,
+		v1: `
+			Teach me Thy way, O Lord,
+			Teach me Thy way!
+			Thy gracious aid afford,
+			Teach me Thy way!
+			Help me to walk aright;
+			More by faith, less by sight;
+			Lead me with heav’nly light,
+			Teach me Thy way!`,
+		v2: `
+			When I am sad at heart,
+			Teach me Thy way!
+			When earthly joys depart,
+			Teach me Thy way!
+			In hours of loneliness,
+			In times of dire distress,
+			In failure or success,
+			Teach me Thy way!`,
+		v3: `
+			When doubts and fears arise,
+			Teach me Thy way!
+			When storms o’erspread the skies,
+			Teach me Thy way!
+			Shine through the cloud and rain,
+			Through sorrow, toil, and pain;
+			Make Thou my pathway plain,
+			Teach me Thy way!`,
+		v4: `
+			Long as my life shall last,
+			Teach me Thy way!
+			Where’er my lot be cast,
+			Teach me Thy way!
+			Until the race is run,
+			Until the journey’s done,
+			Until the crown is won,
+			Teach me Thy way!`
+	},
+	{
+		id: 116,
+		title: `Tell It To Jesus`,
+		v1: `
+			Are you weary, are you heavy hearted?
+			Tell it to Jesus, tell it to Jesus.
+			Are you grieving over joys departed?
+			Tell it to Jesus alone.`,
+		v2: `
+			Do the tears flow down
+			 your cheeks unbidden?
+			Tell it to Jesus, tell it to Jesus.
+			Have you sins that to men’s eyes are hidden?
+			Tell it to Jesus alone.`,
+		v3: `
+			Do you fear the gathering clouds of sorrow?
+			Tell it to Jesus, tell it to Jesus.
+			Are you anxious what shall be tomorrow?
+			Tell it to Jesus alone.`,
+		v4: `
+			Are you troubled at the thought of dying?
+			Tell it to Jesus, tell it to Jesus.
+			For Christ’s coming kingdom are you sighing?
+			Tell it to Jesus alone`,
+		chorus: `
+			Tell it to Jesus, tell it to Jesus,
+			He is a Friend that’s well known.
+			You’ve no other such a friend or brother,
+			Tell it to Jesus alone.`
+	},
+	{
+		id: 117,
+		title: `There Is A Fountain`,
+		v1: `
+			There is a fountain filled with blood 
+			Drawn from Emmanuel’s veins;
+			And sinners plunged beneath that flood 
+			Lose all their guilty stains.
+			Lose all their guilty stains, lose all their guilty stains;
+			And sinners plunged beneath that flood 
+			Lose all their guilty stains.`,
+		v2: `
+			The dying thief rejoiced to see 
+			That fountain in his day;
+			And there have I, though vile as he, 
+			Washed all my sins away.
+			Washed all my sins away, 
+			washed all my sins away;
+			And there have I, though vile as he, 
+			Washed all my sins away.`,
+		v3: `
+			Dear dying Lamb, Thy precious blood 
+			Shall never lose its power
+			Till all the ransomed church of God 
+			Be saved, to sin no more.
+			Be saved, to sin no more, 
+			be saved, to sin no more;
+			Till all the ransomed church of God 
+			Be saved, to sin no more.`,
+		v4: `
+			E’er since, by faith, I saw the stream 
+			Thy flowing wounds supply,
+			Redeeming love has been my theme, 
+			And shall be till I die.
+			And shall be till I die, and shall be till I die;
+			Redeeming love has been my theme, 
+			And shall be till I die.`
+	},
+	{
+		id: 118,
+		title: `There Is Power In The Blood`,
+		v1: `
+			Would you be free from the burden of sin?
+			There's power in the blood, 
+			Power in the blood;
+			Would you over evil a victory win?
+			There's wonderful power in the blood.`,
+		v2: `
+			Would you be free from your 
+			Passion and pride?
+			There's power in the blood, 
+			Power in the blood;
+			Come for a cleansing to Calvary's tide;
+			There's wonderful power in the blood.`,
+		v3: `
+			Would you be whiter, much whiter than snow?
+			There's power in the blood, 
+			Power in the blood;
+			Sin stains are lost in its life giving flow.
+			There's wonderful power in the blood.`,
+		v4: `
+			Would you do service for Jesus your King?
+			There's power in the blood, 
+			Power in the blood;
+			Would you live daily His praises to sing?
+			There's wonderful power in the blood.`,
+		chorus: `
+			There is power, power,
+			Wonder working power
+			In the blood of the Lamb;
+			There is power, power,
+			Wonder working power
+			In the precious blood of the Lamb.`
+	},
+	{
+		id: 119,
+		title: `This Is My Father's World`,
+		v1: `
+			This is my Father's world, 
+			And to my listening ears 
+			All nature sings, and round me rings 
+			The music of the spheres.  
+			This is my Father's world:  
+			I rest me in the thought 
+			Of rocks and trees, of skies and seas; 
+			His hand the wonders wrought.`,
+		v2: `
+			This is my Father's world, 
+			The birds their carols raise, 
+			The morning light, the lily white, 
+			Declare their maker's praise.  
+			This is my Father's world:  
+			He shines in all that's fair; 
+			In the rustling grass I hear him pass; 
+			He speaks to me everywhere.`,
+		v3: `
+			This is my Father's world.  
+			O let me ne'er forget 
+			That though the wrong seems oft so strong, 
+			God is the ruler yet.  
+			This is my Father’s world
+			The battle is not done
+			Jesus who dies shall be satisfied 
+			And earth and heaven be one`
+	},
+	{
+		id: 120,
+		title: `'Tis So Sweet To Trust In Jesus`,
+		v1: `
+			'Tis so sweet to trust in Jesus,
+			And to take Him at His Word;
+			Just to rest upon His promise,
+			And to know, "Thus says the Lord!"`,
+		v2: `
+			O how sweet to trust in Jesus,
+			Just to trust His cleansing blood;
+			And in simple faith to plunge me
+			’Neath the healing, cleansing flood!`,
+		v3: `
+			Yes, 'tis sweet to trust in Jesus,
+			Just from sin and self to cease;
+			Just from Jesus simply taking
+			Life and rest, and joy and peace.`,
+		v4: `
+			I'm so glad I learned to trust Him,
+			Precious Jesus, Savior, Friend;
+			And I know that Thou art with me,
+			Wilt be with me to the end.`,
+		chorus: `
+			Jesus, Jesus, how I trust Him!
+			How I've proved Him over and over
+			Jesus, Jesus, precious Jesus!
+			O for grace to trust Him more!`
+	},
+	{
+		id: 121,
+		title: `To God Be The Glory`,
+		v1: `
+			To God be the glory, 
+			great things He hath done;
+			So loved He the world 
+			that He gave us His son,
+			Who yielded His life an atonement for sin,
+			And opened the lifegate that all may go in.`,
+		v2: `
+			O perfect redemption, the purchase of blood,
+			To ev’ry believer the promise of God;
+			The vilest offender who truly believes,
+			That moment from Jesus a pardon receives.`,
+		v3: `
+			Great things He hath taught us, 
+			Great things He hath done,
+			And great our rejoicing tho’ Jesus the Son;
+			But purer, and higher, and greater will be
+			Our wonder, our vict’ry, when Jesus we see.`,
+		chorus: `
+			Praise the Lord, praise the Lord,
+			Let the earth hear His voice!
+			Praise the Lord, praise the Lord,
+			Let the people rejoice!
+			O come to the Father, thro’ Jesus the Son,
+			And give Him the glory,
+			Great things He hath done.`
+	},
+	{
+		id: 122,
+		title: `Trust And Obey`,
+		v1: `
+			When we walk with the Lord 
+			In the light of His Word
+			What a glory He sheds on our way!
+			Let us do His good will; 
+			He abides with us still,
+			And with all who will trust and obey.`,
+		v2: `
+			Not a burden we bear, Not a sorrow we share,
+			But our toil He doth richly repay;
+			Not a grief or a loss, Not a frown or a cross,
+			But is blest if we trust and obey.`,
+		v3: `
+			But we never can prove 
+			The delights of His love
+			Until all on the altar we lay;
+			For the favor He shows 
+			And the joy He bestows
+			Are for them who will trust and obey.`,
+		v4: `
+			Then in fellowship sweet, 
+			We will sit at His feet
+			Or we’ll walk by His side in the way;
+			What He says we will do, 
+			Where He sends we will go;
+			Never fear, only trust and obey.`,
+		chorus: `
+			Trust and obey, for there’s no other way
+			To be happy in Jesus, But to trust and obey.`
+	},
+	{
+		id: 123,
+		title: `Trusting Jesus`,
+		v1: `
+			Simply trusting every day,
+			Trusting through a stormy way;
+			Even when my faith is small,
+			Trusting Jesus, that is all.`,
+		v2: `
+			Brightly does His Spirit shine
+			Into this poor heart of mine;
+			While He leads I cannot fall;
+			Trusting Jesus, that is all.`,
+		v3: `
+			Singing if my way is clear,
+			Praying if the path be drear;
+			If in danger for Him call;
+			Trusting Jesus, that is all.`,
+		v4: `
+			Trusting Him while life shall last,
+			Trusting Him till earth be past;
+			Till within the jasper wall,
+			Trusting Jesus, that is all.`,
+		chorus: `
+			Trusting as the moments fly,
+			Trusting as the days go by;
+			Trusting Him whate’er befall,
+			Trusting Jesus, that is all.`
+	},
+	{
+		id: 124,
+		title: `Turn Your Eyes Upon Jesus`,
+		v1: `
+			O soul, are you weary and troubled?
+			No light in the darkness you see?
+			There’s a light for a look at the Savior,
+			And life more abundant and free!`,
+		v2: `
+			Through death into life everlasting
+			He passed, and we follow Him there;
+			Over us sin no more hath dominion—
+			For more than conquerors we are!`,
+		v3: `
+			His Word shall not fail you—He promised;
+			Believe Him, and all will be well:
+			Then go to a world that is dying,
+			His perfect salvation to tell!`,
+		chorus: `
+			Turn your eyes upon Jesus,
+			Look full in His wonderful face,
+			And the things of earth 
+			Will grow strangely dim,
+			In the light of His glory and grace.`
+	},
+	{
+		id: 125,
+		title: `Victory In Jesus`,
+		v1: `
+			I heard an old, old story, 
+			how a Savior came from glory,
+			How he gave His life on Calvary 
+			To save a wretch like me:
+			I heard about His groaning, 
+			Of His precious blood’s atoning,
+			Then I repented of my sins
+			and won the victory.`,
+		v2: `
+			I heard about His healing, 
+			Of His cleansing pow’r revealing,
+			How He made the lame to walk again 
+			And caused the blind to see;
+			And then I cried, "Dear Jesus, 
+			Come and heal my broken spirit,"
+			And somehow Jesus came
+			and bro’t to me the victory.`,
+		v3: `
+			I heard about a mansion 
+			He has built for me in glory,
+			And I heard about the streets of gold 
+			Beyond the crystal sea;
+			About the angels singing, 
+			And the old redemption story,
+			And some sweet day I’ll sing up there 
+			The song of victory.`,
+		chorus: `
+			O victory in Jesus, my Savior, forever,
+			He sought me and bo’t me
+			with His redeeming blood;
+			He loved me ere I knew Him, 
+			And all my love is due Him,
+			He plunged me to victory,
+			beneath the cleansing flood.`
+	},
+	{
+		id: 126,
+		title: `We Are Called To Be God's People`,
+		v1: `
+			We are called to be God’s people,
+			Showing by our lives His grace,
+			One in heart and one in sprit,
+			Sign of hope for all the race.
+			Let us show how He has changed us,
+			And remade us as His own,
+			Let us share our life together
+			As we shall around His throne.`,
+		v2: `
+			We are called to be God’s servants,
+			Working in His world today;
+			Taking His own task upon us,
+			All His sacred words obey.
+			Let us rise, then, to His summons,
+			Dedicate to Him our all,
+			That we may be faithful servants,
+			Quick to answer now His call.`,
+		v3: `
+			We are called to be God’s prophets,
+			Speaking for the truth and right;
+			Standing firm for godly justice,
+			Bringing evil into light.
+			Let us seek the courage needed,
+			Our high calling to fulfill,
+			That we all may know the blessing
+			Of the doing of God’s will.`
+	},
+	{
+		id: 127,
+		title: `What A Friend We Have In Jesus`,
+		v1: `
+			What a Friend we have in Jesus, 
+			All our sins and griefs to bear!
+			What a privilege to carry 
+			Everything to God in prayer!
+			O what peace we often forfeit, 
+			O what needless pain we bear,
+			All because we do not carry 
+			Everything to God in Prayer.
+
+			Have we trials and temptations? 
+			Is there trouble anywhere?
+			We should never be discouraged; 
+			Take it to the Lord in prayer.
+			Can we find a friend so faithful 
+			Who will all our sorrows share?
+			Jesus knows our every weakness; 
+			Take it to the Lord in Prayer.
+
+			Are we weak and heavy laden, 
+			Cumbered with a load of care?
+			Precious Savior, still our refuge, 
+			Take it to the Lord in prayer.
+			Do your friends despise, forsake you? 
+			Take it to the Lord in prayer!
+			In His arms He'll take and shield you; 
+			You will find a solace there.`
+	},
+	{
+		id: 128,
+		title: `When I Survey The Wondrous Cross`,
+		v1: `
+			When I survey the wondrous cross,
+			On which the Prince of glory died,
+			My richest gain I count but loss,
+			And pour contempt on all my pride.`,
+		v2: `
+			Forbid it, Lord, that I should boast,
+			Save in the death of Christ, my God;
+			All the vain things that charm me most,
+			I sacrifice them to His blood.`,
+		v3: `
+			See, from His head, His hands, His feet,
+			Sorrow and love flow mingled down;
+			Did e’er such love and sorrow meet,
+			Or thorns compose so rich a crown?`,
+		v4: `
+			Were the whole realm of nature mine,
+			That were a present far too small;
+			Love so amazing, so divine,
+			Demands my soul, my life, my all.`
+	},
+	{
+		id: 129,
+		title: `When The Roll Is Called Up Yonder`,
+		v1: `
+			When the trumpet of the Lord shall sound, 
+			And time shall be no more,
+			And the morning breaks, 
+			eternal, bright and fair;
+			When the saved of earth shall gather 
+			Over on the other shore,
+			And the roll is called up yonder, I'll be there.`,
+		v2: `
+			On that bright and cloudless morning when 
+			The dead in Christ shall rise,
+			And the glory of His resurrection share;
+			When His chosen ones shall gather to 
+			Their home beyond the skies,
+			And the roll is called up yonder, I'll be there.`,
+		v3: `
+			Let us labor for the Master from 
+			The dawn till setting sun,
+			Let us talk of all His wondrous love and care;
+			Then when all of life is over, and 
+			Our work on earth is done,
+			And the roll is called up yonder, I'll be there.`,
+		chorus: `
+			When the roll, is called up yonder,
+			When the roll, is called up yonder,
+			When the roll, is called up yonder,
+			When the roll is called up yonder I'll be there.`
+	},
+	{
+		id: 130,
+		title: `When We All Get To Heaven`,
+		v1: `
+			Sing the wondrous love of Jesus; 
+			Sing his mercy and his grace. 
+			In the mansions bright and blessed 
+			He'll prepare for us a place.`,
+		v2: `
+			While we walk the pilgrim pathway, 
+			Clouds will overspread the sky; 
+			But when traveling days are over, 
+			Not a shadow, not a sigh.`,
+		v3: `
+			Let us then be true and faithful, 
+			Trusting, serving every day; 
+			Just one glimpse of him in glory 
+			Will the toils of life repay.`,
+		v4: `
+			Onward to the prize before us! 
+			Soon his beauty we'll behold; 
+			Soon the pearly gates will open; 
+			We shall tread the streets of gold.`,
+		chorus: `
+			When we all get to heaven, 
+			What a day of rejoicing that will be! 
+			When we all see Jesus, 
+			We'll sing and shout the victory!`
+	},
+	{
+		id: 131,
+		title: `Wherever He Leads, I’ll Go`,
+		v1: `
+			"Take up thy cross and follow Me,"
+			I heard my Master say;
+			"I gave My life to ransom thee,
+			Surrender your all today."`,
+		v2: `
+			He drew me closer to His side,
+			I sought His will to know,
+			And in that will I now abide,
+			Wherever He leads I’ll go.`,
+		v3: `
+			It may be thro’ the shadows dim,
+			Or o’er the stormy sea,
+			I take my cross and follow Him,
+			Wherever He leadeth me.`,
+		v4: `
+			My heart, my life, my all I bring
+			To Christ who loves me so;
+			He is my Master, Lord, and King,
+			Wherever He leads I’ll go.`,
+		chorus: `
+			Wherever He leads I’ll go,
+			Wherever He leads I’ll go,
+			I’ll follow my Christ who loves me so,
+			Wherever He leads I’ll go.`
+	},
+	{
+		id: 132,
+		title: `Whiter Than Snow`,
+		v1: `
+			Lord Jesus, I long to be perfectly whole;
+			I want Thee forever to live in my soul.
+			Break down every idol, cast out every foe;
+			Now wash me, and I shall be 
+			Whiter than snow.`,
+		v2: `
+			Lord Jesus, for this I most humbly entreat,
+			I wait, blessed Lord, at Thy crucified feet.
+			By faith, for my cleansing, 
+			I see Thy blood flow,
+			Now wash me, and I shall be 
+			Whiter than snow.`,
+		v3: `
+			Lord Jesus, Thou knowest I patiently wait,
+			Come now, and within me a new heart create;
+			To those who have sought Thee, 
+			Thou never saidst "No,"
+			Now wash me, and I shall be 
+			Whiter than snow.`,
+		chorus: `
+			Whiter than snow, yes, whiter than snow.
+			Now wash me, and I shall be 
+			Whiter than snow.`
+	},
+	{
+		id: 133,
+		title: `Without Him`,
+		v1: `
+			Without Him, I could do nothing,
+			Without Him, I’d surely fail;
+			Without Him, I would be drifting
+			Like a ship without a sail.`,
+		v2: `
+			Without Him, I could be dying,
+			Without Him, I’d be enslaved;
+			Without Him, life would be hopeless,
+			But with Jesus, thank God, I’m saved.`,
+		chorus: `
+			Jesus, O Jesus,
+			Do you know Him today?
+			Do not turn Him away.
+			O Jesus, O Jesus,
+			Without Him, how lost I would be.`
+	},
+	{
+		id: 134,
+		title: `Wonderful Words Of Life`,
+		v1: `
+			Sing them over again to me, 
+			Wonderful words of life; 
+			Let me more of their beauty see, 
+			Wonderful words of life; 
+			Words of life and beauty 
+			Teach me faith and duty.`,
+		v2: `
+			Christ, the blessed one, gives to all 
+			Wonderful words of life; 
+			Sinner, list to the loving call,
+			Wonderful words of life; 
+			All so freely given, 
+			Wooing us to heaven.`,
+		v3: `
+			Sweetly echo the gospel call, 
+			Wonderful words of life; 
+			Offer pardon and peace to all, 
+			Wonderful words of life; 
+			Jesus, only Savior, 
+			Sanctify forever.`,
+		chorus: `
+			Beautiful words, wonderful words, 
+			Wonderful words of life. 
+			Beautiful words, wonderful words, 
+			Wonderful words of life.`
+	},
+	{
+		id: 135,
+		title: `Worthy Of Worship`,
+		v1: `
+			Worthy of worship, worthy of praise,
+			Worthy of honor and glory;
+			Worthy of all the glad songs we can sing,
+			Worthy of all of the off’rings we bring.`,
+		v2: `
+			Worthy of reverence, worthy of fear,
+			Worthy of love and devotion;
+			Worthy of bowing and bending of knees,
+			Worthy of all this and added to these.`,
+		v3: `
+			Almighty Father, Master and Lord,
+			King of all kings and Redeemer,
+			Wonderful Counselor, Comforter, Friend,
+			Savior and Source of our life without end.`,
+		chorus: `
+			You are worthy, Father, Creator.
+			You are worthy, Savior, Sustainer.
+			You are worthy, worthy and wonderful;
+			Worthy of worship and praise.`
 	}
-	// { id: 101, title: `Set My Soul Afire`, v1: `` },
-	// { id: 102, title: `Shine, Jesus, Shine`, v1: `` },
-	// { id: 103, title: `Since I Have Been Redeemed`, v1: `` },
-	// { id: 104, title: `Since Jesus Came Into My Heart`, v1: `` },
-	// { id: 105, title: `Softly And Tenderly`, v1: `` },
-	// { id: 106, title: `The Solid Rock`, v1: `` },
-	// { id: 107, title: `Something For Thee`, v1: `` },
-	// { id: 108, title: `Speak To My Heart`, v1: `` },
-	// { id: 109, title: `Spirit Of God, Descend Upon My Heart`, v1: `` },
-	// { id: 110, title: `Spirit Of The Living God`, v1: `` },
-	// { id: 111, title: `Surely Goodness And Mercy`, v1: `` },
-	// { id: 112, title: `Sweet Hour Of Prayer`, v1: `` },
-	// { id: 113, title: `Take My Life And Let It Be`, v1: `` },
-	// { id: 114, title: `Take Time To Be Holy`, v1: `` },
-	// { id: 115, title: `Teach Me Thy Way`, v1: `` },
-	// { id: 116, title: `Tell It To Jesus`, v1: `` },
-	// { id: 117, title: `There Is A Fountain`, v1: `` },
-	// { id: 118, title: `There Is Power In The Blood`, v1: `` },
-	// { id: 119, title: `This Is My Father's World`, v1: `` },
-	// { id: 120, title: `'Tis So Sweet To Trust In Jesus`, v1: `` },
-	// { id: 121, title: `To God Be The Glory`, v1: `` },
-	// { id: 122, title: `Trust And Obey`, v1: `` },
-	// { id: 123, title: `Trusting Jesus`, v1: `` },
-	// { id: 124, title: `Turn Your Eyes Upon Jesus`, v1: `` },
-	// { id: 125, title: `Victory In Jesus`, v1: `` },
-	// { id: 126, title: `We Are Called To Be God's People`, v1: `` },
-	// { id: 127, title: `What A Friend We Have In Jesus`, v1: `` },
-	// { id: 128, title: `When I Survey The Wondrous Cross`, v1: `` },
-	// { id: 129, title: `When The Roll Is Called Up Yonder`, v1: `` },
-	// { id: 130, title: `When We All Get To Heaven`, v1: `` },
-	// { id: 131, title: `Wherever He Leads, I’ll Go`, v1: `` },
-	// { id: 132, title: `Whiter Than Snow`, v1: `` },
-	// { id: 133, title: `Without Him`, v1: `` },
-	// { id: 134, title: `Wonderful Words Of Life`, v1: `` },
-	// { id: 135, title: `Worthy Of Worship`, v1: `` }
 ]
 
 export default list
