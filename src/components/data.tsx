@@ -1,4 +1,4 @@
-const list = [
+export default [
 	{
 		id: 1,
 		title: `Abide With Me`,
@@ -4040,5 +4040,3 @@ const list = [
 			Worthy of worship and praise.`
 	}
 ]
-
-export default list
